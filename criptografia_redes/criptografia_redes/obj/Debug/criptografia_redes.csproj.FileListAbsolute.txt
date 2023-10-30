@@ -1,0 +1,11 @@
+C:\Users\Cliente\OneDrive\criptografia_redes\criptografia_redes\bin\Debug\criptografia_redes.exe.config
+C:\Users\Cliente\OneDrive\criptografia_redes\criptografia_redes\bin\Debug\criptografia_redes.exe
+C:\Users\Cliente\OneDrive\criptografia_redes\criptografia_redes\bin\Debug\criptografia_redes.pdb
+C:\Users\Cliente\OneDrive\criptografia_redes\criptografia_redes\obj\Debug\criptografia_redes.csproj.AssemblyReference.cache
+C:\Users\Cliente\OneDrive\criptografia_redes\criptografia_redes\obj\Debug\criptografia_redes.Form1.resources
+C:\Users\Cliente\OneDrive\criptografia_redes\criptografia_redes\obj\Debug\criptografia_redes.Properties.Resources.resources
+C:\Users\Cliente\OneDrive\criptografia_redes\criptografia_redes\obj\Debug\criptografia_redes.RegrasDeNegocio.calculoConversor.resources
+C:\Users\Cliente\OneDrive\criptografia_redes\criptografia_redes\obj\Debug\criptografia_redes.csproj.GenerateResource.cache
+C:\Users\Cliente\OneDrive\criptografia_redes\criptografia_redes\obj\Debug\criptografia_redes.csproj.CoreCompileInputs.cache
+C:\Users\Cliente\OneDrive\criptografia_redes\criptografia_redes\obj\Debug\criptografia_redes.exe
+C:\Users\Cliente\OneDrive\criptografia_redes\criptografia_redes\obj\Debug\criptografia_redes.pdb
