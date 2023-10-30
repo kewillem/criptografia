@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "criptografia_prompt/1.0.0": {
+        "runtime": {
+          "criptografia_prompt.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "criptografia_prompt/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

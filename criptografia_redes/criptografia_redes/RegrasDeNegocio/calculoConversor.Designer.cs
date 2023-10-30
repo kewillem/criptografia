@@ -146,6 +146,7 @@
             this.btBinario.TabIndex = 12;
             this.btBinario.Text = "Converter";
             this.btBinario.UseVisualStyleBackColor = true;
+            this.btBinario.Click += new System.EventHandler(this.btBinario_Click);
             // 
             // txtResultCaracter
             // 

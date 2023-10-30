@@ -8,5 +8,6 @@ namespace criptografia_redes.Classes
 {
     internal class Conversor
     {
+        
     }
 }

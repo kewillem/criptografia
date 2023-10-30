@@ -16,5 +16,10 @@ namespace criptografia_redes.RegrasDeNegocio
         {
             InitializeComponent();
         }
-    }
+
+        private void btBinario_Click(object sender , EventArgs e)
+            {
+
+            }
+        }
 }
