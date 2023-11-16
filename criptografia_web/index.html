@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia de Mensagens</title>
+</head>
+<body>
+    <label for="mensagem">Mensagem:</label>
+    <input type="text" id="mensagem">
+    <button id="button">Criptografar</button>
+    <br>
+    <label for="outputMensagem">Mensagem Criptografada:</label>
+    <textarea id="outputMensagem" rows="4" cols="50" readonly></textarea>
+    <script>
+        const button = document.querySelector("#button")
+
+        button.addEventListener('click', criptografar)
+        function criptografar() {
+            const outputMensagem = document.querySelector('#outputMensagem');
+            const frase =document.querySelector('#mensagem').value;
+            let fraseCriptografada = '';
+            for (let i = 0; i < frase.length; i++) {
+                fraseCriptografada += frase.charCodeAt(i).toString(2) + ' '; // Adiciona um espaço entre as representações binárias
+            }
+            outputMensagem.value = fraseCriptografada; // Remove o espaço extra no final da string
+            console.log(fraseCriptografada);
+        }
+        function descriptografar(fraseCriptografada) {
+            let frase = '';
+            const partes = fraseCriptografada.split(' '); // Divide a string criptografada em partes separadas por espaços
+            for (let i = 0; i < partes.length; i++) {
+                const caractere = String.fromCharCode(parseInt(partes[i], 2)); // Converte a representação binária em um caractere
+                frase += caractere;
+            }
+            return frase;
+        }
+    </script>
+</body>
+</html>
